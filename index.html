@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="upper">
+        <img class="logo" src="app.png">
+        <h1 class="Alishgram"><b>Alishgram</b></h1>
+    </nav>
+    <section id="posts">
+        <div id="postsBox">
+            <div id="post1" class="post">
+                <div class="avtBox">
+                    <img id="imgpost" class="avt" src="avt.png">
+                    <b>alish.gfa</b>
+                </div>
+                <img class="img" src="img1.jpg">
+                <div class="likes">
+                    <a href="javascript:void(0)" onclick="like()" class="likebtn"><img class="like" src="like.png"></a>
+                    <b class="like">Likes: </b><p id="number"> 10 </p>
+                </div>
+                <div class="text1" id="text">
+                    
+                </div>
+                <div class="poloska"></div>
+                <div id="coms">
+                <p>Natalya: Блин как круто</p>
+                <p>Marat: Тоже хочу туда</p>
+                <p>Nadezhda: Так классно выглядишь</p>
+                <p>alish.gfa: Всем от души, если хотите также отдыхать записывайтесь на мой курс по ссылке в шапке профиля</p>
+
+                </div>
+                <input id="coms">
+                <a href="javascript:void(0)" onclick="addcom()" class="sendfield"><img class="send" src="send.webp"></a>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
